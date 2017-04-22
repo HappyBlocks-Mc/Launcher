@@ -1,26 +1,26 @@
 # Launcher
-Le launcher HappyBlocks open-source !
+The open-source HappyBlocks launcher!
 
-//HappyBlocks Server, MOJANG AB, FORGE, LITARVAN, VERSION OFFICIELLE
+// HappyBlocks Server, MOJANG AB, FORGE, LITARVAN, OFFICIAL VERSION
 
-Bonjour!
+Hello!
 
-Ce launcher a été créer avec le tutoriel de Litarvan, je le remercie beaucoup pour le partage de ses librairies et pour son aide précieuse.
+This launcher was created with the Litarvan tutorial, I thank him very much for sharing his bookstores and for his precious help.
 
-youtube.com/user/Litarvan
+Youtube.com/user/Litarvan
 
-Il est possible de se baser sur notre code tout en respectant le travail fourni, nous y avons passer énormement de temps a ce launcher
+It is possible to rely on our code while respecting the work provided, we spend a lot of time in this launcher
 
 
-MOJANG AB; TOUS DROITS RESERVEES
-HAPPYBLOCKS 2016; TOUS DROITS RESERVEES
-LITARVAN LIBS; TOUS DROITS RESERVEES
-FORGE; TOUS DROITS RESERVEES
+MOJANG AB; ALL RIGHTS RESERVED
+HAPPYBLOCKS 2016; ALL RIGHTS RESERVED
+LITARVAN LIBS; ALL RIGHTS RESERVED
+WROUGHT; ALL RIGHTS RESERVED
 
-Le launcher utilise forge et Custom Main Menu, merci de respecter la CGU en vigueur.
+The launcher uses forge and Custom Main Menu, please respect the current GCU.
 
-Bon jeu sur nos serveurs !
+Good game on our servers!
 
-PS: Le code n'est peut être pas optimiser mais sa fonctionner, moi c'est plutôt le HTML.
+PS: The code may not be optimized but its working, me is rather HTML.
 
-//HappyBlocks Server, MOJANG AB, FORGE, LITARVAN, VERSION OFFICIELLE
+// HappyBlocks Server, MOJANG AB, FORGE, LITARVAN, OFFICIAL VERSION
