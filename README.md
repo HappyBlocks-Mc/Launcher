@@ -15,13 +15,13 @@ It is possible to rely on our code while respecting the work provided, we spend 
 **/!\ Compatible only with premium accounts**
 
 
-**This launcher includes :
+**This launcher includes :**
 - Optifine
 - Custom texture pack (Fnaf)
 - 1.8.9 ( Version recommended)
 - Automatic updating of the launcher
 - Recommended settings for playing on our servers
-- ...**
+- ...
 
 ***==========================================================================***
 
