@@ -6,6 +6,8 @@ The open-source HappyBlocks launcher!
 
 Hello!
 
+![alt text](https://www.happyblocks.info/img/launcher.png "Screenshot du launcher")
+
 This launcher was created with the Litarvan tutorial, I thank him very much for sharing his bookstores and for his precious help.
 
 https://www.youtube.com/user/adrien19771
@@ -32,6 +34,6 @@ The launcher uses forge and Custom Main Menu, please respect the current GCU.
 PS: The code may not be optimized but its working, me is rather HTML.
 
 *MOJANG AB; ALL RIGHTS RESERVED
-HAPPYBLOCKS 2015-2017S RESERVED
+HAPPYBLOCKS 2015-2018 RESERVED
 LITARVAN LIBS; ALL RIGHTS RESERVED
 FORGE; ALL RIGHTS RESERVED*
