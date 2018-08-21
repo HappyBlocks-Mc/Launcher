@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/gson-2.3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/openlauncherlib-2.1-SNAPSHOT.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/openlauncherlib-3.0.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/s-update-3.1.0-BETA.jar"/>

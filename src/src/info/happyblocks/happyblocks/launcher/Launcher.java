@@ -3,38 +3,37 @@
 package info.happyblocks.happyblocks.launcher;
 
 import java.io.File;
-import java.io.IOException;
 
-import net.lingala.zip4j.core.ZipFile;
-import net.lingala.zip4j.exception.ZipException;
 import fr.theshark34.openauth.AuthPoints;
 import fr.theshark34.openauth.AuthenticationException;
 import fr.theshark34.openauth.Authenticator;
 import fr.theshark34.openauth.model.AuthAgent;
 import fr.theshark34.openauth.model.response.AuthResponse;
-import fr.theshark34.openlauncherlib.launcher.AuthInfos;
-import fr.theshark34.openlauncherlib.launcher.GameFolder;
-import fr.theshark34.openlauncherlib.launcher.GameInfos;
-import fr.theshark34.openlauncherlib.launcher.GameLauncher;
-import fr.theshark34.openlauncherlib.launcher.GameTweak;
-import fr.theshark34.openlauncherlib.launcher.GameType;
-import fr.theshark34.openlauncherlib.launcher.GameVersion;
-import fr.theshark34.openlauncherlib.util.ErrorUtil;
+import fr.theshark34.openlauncherlib.LaunchException;
+import fr.theshark34.openlauncherlib.internal.InternalLaunchProfile;
+import fr.theshark34.openlauncherlib.internal.InternalLauncher;
+import fr.theshark34.openlauncherlib.minecraft.AuthInfos;
+import fr.theshark34.openlauncherlib.minecraft.GameFolder;
+import fr.theshark34.openlauncherlib.minecraft.GameInfos;
+import fr.theshark34.openlauncherlib.minecraft.GameTweak;
+import fr.theshark34.openlauncherlib.minecraft.GameType;
+import fr.theshark34.openlauncherlib.minecraft.GameVersion;
+import fr.theshark34.openlauncherlib.minecraft.MinecraftLauncher;
 import fr.theshark34.supdate.BarAPI;
 import fr.theshark34.supdate.SUpdate;
 import fr.theshark34.supdate.application.integrated.FileDeleter;
 import fr.theshark34.swinger.Swinger;
+import net.lingala.zip4j.core.ZipFile;
+import net.lingala.zip4j.exception.ZipException;
 
 public class Launcher {
 
 	public static final GameVersion HB_VERSION = new GameVersion("1.8", GameType.V1_8_HIGHER);
-	public static final GameInfos HB_INFOS = new GameInfos("HappyBlocks", HB_VERSION, true, new GameTweak[] {GameTweak.FORGE});
+	public static final GameInfos HB_INFOS = new GameInfos("HappyBlocks", HB_VERSION, new GameTweak[] {GameTweak.FORGE});
 	public static final File HB_DIR = HB_INFOS.getGameDir();
 	public static final File HB_CRASHES_DIR = new File(HB_DIR, "crashes");
 	private static AuthInfos authInfos;
 	private static Thread updateThread;
-	
-	private static ErrorUtil errorUtil = new ErrorUtil(HB_CRASHES_DIR);
 	
 	public static void auth(String username, String password) throws AuthenticationException {
 		Authenticator authenticator = new Authenticator(Authenticator.MOJANG_AUTH_URL, AuthPoints.NORMAL_AUTH_POINTS);
@@ -89,18 +88,13 @@ public class Launcher {
 		
 	}
 	
-	public static void launch() throws IOException {
-		GameLauncher gameLauncher  = new GameLauncher(HB_INFOS, GameFolder.BASIC, authInfos);
-		Process p = gameLauncher.launch();
-		try {
-			Thread.sleep(5000L);
-		} catch (InterruptedException e) {
-		}
+	public static void launch() throws LaunchException 
+	{
+		InternalLaunchProfile profile = MinecraftLauncher.createInternalProfile(HB_INFOS, GameFolder.BASIC, authInfos);
+		InternalLauncher launcher = new InternalLauncher(profile);
 		LauncherFrame.getInstance().setVisible(false);
-		try {
-			p.waitFor();
-		} catch (InterruptedException e) {			
-		}
+		launcher.launch();
+			
 		System.exit(0);
 	}
 	
@@ -109,9 +103,6 @@ public class Launcher {
 		
 		
 		}
-	public static ErrorUtil getErrorUtil() { 
-		return errorUtil;
-	}
 }
 
 //HappyBlocks Server, MOJANG AB, FORGE, LITARVAN, VERSION OFFICIELLE

@@ -3,10 +3,15 @@
 package info.happyblocks.happyblocks.launcher;
 
 import java.awt.Color;
+import java.awt.Desktop;
 import java.awt.Graphics;
 import java.awt.Image;
+import java.io.File;
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -15,9 +20,12 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 
 import fr.theshark34.openauth.AuthenticationException;
-import fr.theshark34.openlauncherlib.launcher.util.UsernameSaver;
+import fr.theshark34.openlauncherlib.LaunchException;
+import fr.theshark34.openlauncherlib.util.Saver;
+import fr.theshark34.openlauncherlib.util.ramselector.RamSelector;
 import fr.theshark34.swinger.Swinger;
 import fr.theshark34.swinger.colored.SColoredBar;
+import fr.theshark34.swinger.colored.SColoredButton;
 import fr.theshark34.swinger.event.SwingerEvent;
 import fr.theshark34.swinger.event.SwingerEventListener;
 import fr.theshark34.swinger.textured.STexturedButton;
@@ -26,15 +34,17 @@ import fr.theshark34.swinger.textured.STexturedButton;
 public class LauncherPanel extends JPanel implements SwingerEventListener {
 	
 	private Image background  = Swinger.getResource("Background.png");
-	private UsernameSaver saver = new UsernameSaver(Launcher.HB_INFOS);
-	private JTextField usernameField = new JTextField(saver.getUsername(""));
+	private Saver saver = new Saver(new File(Launcher.HB_DIR, "launcher.properties"));
+	private JTextField usernameField = new JTextField(saver.get("username"));
 	private JPasswordField passwordField = new JPasswordField();	
 	private STexturedButton playButton = new STexturedButton(Swinger.getResource("play.png"));
-	private STexturedButton hideButton = new STexturedButton(Swinger.getResource("quit.png"));
-	private STexturedButton quitButton = new STexturedButton(Swinger.getResource("reduce.png"));
+	private STexturedButton hideButton = new STexturedButton(Swinger.getResource("reduce.png"));
+	private STexturedButton quitButton = new STexturedButton(Swinger.getResource("quit.png"));
 	private JLabel infoLabel2 = new JLabel("http://happyblocks.info/", SwingConstants.CENTER);
-
-	
+	private STexturedButton discordButton = new 
+			STexturedButton(Swinger.getResource("discord.png"));
+	private STexturedButton twitterButton = new 
+			STexturedButton(Swinger.getResource("twitter.png"));
 	private SColoredBar progressBar = new SColoredBar(Swinger.getTransparentWhite(100), Swinger.getTransparentWhite(175));
 	private JLabel infoLabel = new JLabel("Cliquez sur jouer !", SwingConstants.CENTER);
 		
@@ -46,7 +56,7 @@ public class LauncherPanel extends JPanel implements SwingerEventListener {
 		usernameField.setCaretColor(Color.WHITE);
 		usernameField.setBorder(null);
 		usernameField.setOpaque(false);
-		usernameField.setBounds(352, 223, 285, 50);
+		usernameField.setBounds(352, 235, 285, 50);
 		this.add(usernameField);
 		
 		passwordField.setForeground(Color.WHITE);
@@ -54,14 +64,14 @@ public class LauncherPanel extends JPanel implements SwingerEventListener {
 		passwordField.setCaretColor(Color.WHITE);
 		passwordField.setOpaque(false);
 		passwordField.setBorder(null);
-		passwordField.setBounds(354, 332, 285, 50);
+		passwordField.setBounds(354, 350, 285, 50);
 		this.add(passwordField);
 		
-		playButton.setBounds(423, 410);
+		playButton.setBounds(423, 430);
 		playButton.addEventListener(this);
 		this.add(playButton);
 		
-		progressBar.setBounds(0, 530, 983, 18);
+		progressBar.setBounds(0, 559, 983, 18);
 		this.add(progressBar);
 		
 		infoLabel.setForeground(Color.WHITE);
@@ -71,17 +81,28 @@ public class LauncherPanel extends JPanel implements SwingerEventListener {
 		
 		infoLabel2.setForeground(Color.WHITE);
 		infoLabel2.setFont(usernameField.getFont());
-		infoLabel2.setBounds(0, 325, 976, 22);
+		infoLabel2.setBounds(0, 328, 976, 22);
 		//this.add(infoLabel2);
 		
-		quitButton.setBounds(925, 18);
+		quitButton.setBounds(950, 10);
 		quitButton.setSize(25, 25);
-		//this.add(quitButton);
+		quitButton.addEventListener(this);
+		this.add(quitButton);
 		
-		hideButton.setBounds(950, 18);
+		hideButton.setBounds(920, 10);
 		hideButton.setSize(25, 25);
-		//this.add(hideButton);
-
+		hideButton.addEventListener(this);
+		this.add(hideButton);
+		
+		discordButton.setBounds(880, 430);
+		discordButton.setSize(70, 70);
+		discordButton.addEventListener(this);
+		this.add(discordButton);
+		
+		twitterButton.setBounds(800, 425);
+		twitterButton.setSize(72, 72);
+		twitterButton.addEventListener(this);
+		this.add(twitterButton);
 
 	}
 	
@@ -112,30 +133,52 @@ public class LauncherPanel extends JPanel implements SwingerEventListener {
         				
                 	}
                 	
-                	saver.setUsername(usernameField.getText());
+                	saver.set("username", usernameField.getText());
                 	
                 	try {
     	                Launcher.update();
                     	} catch (Exception e) {
             				Launcher.interruptThread();
-            				Launcher.getErrorUtil().catchError(e, "Impossible de mettre a jour le launcher !");
+            				LauncherFrame.getCrashReporter().catchError(e, "Impossible de mettre a jour le launcher !");
                     		
                     	}
                 	
                 	try {
     	                Launcher.launch();
-                    	} catch (IOException e) {
-                    		Launcher.getErrorUtil().catchError(e, "Impossible de lancer le jeu !");
+                    	} catch (LaunchException e) {
+                    		LauncherFrame.getCrashReporter().catchError(e, "Impossible de lancer le jeu !");
                     	}
                 	
                 	System.out.println("Connection réussi");
                 }
             };
             t.start();
+            
 		}
-		
+	   else if(e.getSource() == discordButton)
+           try {
+               Desktop.getDesktop().browse(new URI("https://discord.gg/nd8epEU"));
+           } catch (IOException e1) {
+               e1.printStackTrace();
+           } catch (URISyntaxException e1) {
+               e1.printStackTrace();
+           }
+	   else if(e.getSource() == quitButton)
+		   System.exit(0);
+	   else if(e.getSource() == hideButton)
+		   LauncherFrame.getInstance().setState(JFrame.ICONIFIED);
+	   else if(e.getSource() == twitterButton)
+           try {
+               Desktop.getDesktop().browse(new URI("https://twitter.com/BlocksHappy"));
+           } catch (IOException e1) {
+               e1.printStackTrace();
+           } catch (URISyntaxException e1) {
+               e1.printStackTrace();
+           }
+	   
 	}
 
+	
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
