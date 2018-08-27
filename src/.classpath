@@ -2,11 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/gson-2.3.1.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/openlauncherlib-3.0.4.jar"/>
 	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/s-update-3.1.0-BETA.jar"/>
 	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/swinger-1.0.0-BETA.jar"/>
 	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/zip4j-1.3.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/openauth-1.0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/valen/workspace/Libs/java-discord-rpc-2.0.1-all.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

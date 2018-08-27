@@ -4,6 +4,9 @@ package info.happyblocks.happyblocks.launcher;
 
 import java.io.File;
 
+import club.minnced.discord.rpc.DiscordEventHandlers;
+import club.minnced.discord.rpc.DiscordRPC;
+import club.minnced.discord.rpc.DiscordRichPresence;
 import fr.theshark34.openauth.AuthPoints;
 import fr.theshark34.openauth.AuthenticationException;
 import fr.theshark34.openauth.Authenticator;
@@ -69,18 +72,15 @@ public class Launcher {
 					BarAPI.getNumberOfDownloadedFiles() + "/" + BarAPI.getNumberOfFileToDownload() + " " +
 					Swinger.percentage(val, max) + "%");
 					
-					try {
-						   ZipFile zipFile = new ZipFile(System.getProperty("user.home")+"/AppData/Roaming/.HappyBlocks/natives.zip");
-						   zipFile.extractAll(System.getProperty("user.home")+"/AppData/Roaming/.HappyBlocks/natives");
-					} catch (ZipException e) {  
-						   e.printStackTrace();  
+					//try {
+					//   ZipFile zipFile = new ZipFile(System.getProperty("user.home")+"/AppData/Roaming/.HappyBlocks/natives.zip");
+					//   zipFile.extractAll(System.getProperty("user.home")+"/AppData/Roaming/.HappyBlocks/natives");
+					//} catch (ZipException e) {  
+					//	   e.printStackTrace();  
+					//}
 					}
-				}
 			}
 		};
-		
-		
-		
 		
 		updateThread.start();		
 		su.start();
@@ -93,6 +93,32 @@ public class Launcher {
 		InternalLaunchProfile profile = MinecraftLauncher.createInternalProfile(HB_INFOS, GameFolder.BASIC, authInfos);
 		InternalLauncher launcher = new InternalLauncher(profile);
 		LauncherFrame.getInstance().setVisible(false);
+        DiscordRichPresence presence = new DiscordRichPresence();
+		//Discord RPC add
+		DiscordRPC lib = DiscordRPC.INSTANCE;
+        String applicationId = "483343162568605706";
+        String steamId = "";
+        DiscordEventHandlers handlers = new DiscordEventHandlers();
+        handlers.ready = (user) -> System.out.println("Ready!");
+        lib.Discord_Initialize(applicationId, handlers, true, steamId);
+        DiscordRichPresence presence1 = new DiscordRichPresence();
+        //Start of RPC details
+        presence1.startTimestamp = System.currentTimeMillis() / 1000; // epoch second
+        presence1.details = "mc.happyblocks.info";
+        presence1.largeImageKey = "favicon";
+        presence1.smallImageKey = "minecraft";
+        presence1.smallImageText = "En jeu...";
+        //End of RPC details
+        lib.Discord_UpdatePresence(presence1);
+        // in a worker thread
+        new Thread(() -> {
+            while (!Thread.currentThread().isInterrupted()) {
+                lib.Discord_RunCallbacks();
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException ignored) {}
+            }
+        }, "RPC-Callback-Handler").start();
 		launcher.launch();
 			
 		System.exit(0);
