@@ -16,6 +16,32 @@ It is possible to rely on our code while respecting the work provided, we spend 
 
 **/!\ Compatible only with premium accounts**
 
+**Changelog**
+
+- Version 0.01 ALPHA : 30 Mai 2016 //Correction de bug majeur, crï¿½ation du launcher
+
+- Version 0.02 BETA : 02 Juin 2016 //Correction crash minecraft
+
+- Version 1.0.0 : 03 Juin 2016 //Sortie du Launcher offciel
+
+- Version 1.0.1 : 02 Novembre 2016 // Correction de bug mineur
+
+- Version 1.0.2 : 09 Janvier 2017 //Ajout du texture pack FNAF
+
+- Version 1.0.3 : 29 dï¿½cembre 2017 // Correction mineur de bug, et update du server s-update
+
+- Version 1.0.4 : 19 Aout 2018 // Refonte totale du launcher, background, et CMM et correction du bug de la bar de chargement, et ajout d'un bootstrap
+
+- Version 1.0.5 : 21 Aout 2018 // Mise a jour du bootstrap(Ram Selector + Update libs OpenLauncherLibs), cÃ´tÃ© launcher : update libs, window undecorated et ajout des boutons rÃ©seaux sociaux
+
+- Version 1.0.6 : 27 Aout 2018 // Ajout de discord RPC et ajout de libs
+		  1.0.7 :      |_____> // Ajout d'un fadeIn, update des textures qui et reduce, selectionText Orange, logo discord/twitter en meilleur résolution,
+
+
+
+21 Aout 2018 : Update GameVersion to 1.9.4
+
+
 
 **This launcher includes :**
 - Optifine

@@ -1,74 +1,115 @@
-[11:11:43] [Thread-3/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[11:11:43] [Thread-3/INFO] [FML/]: Forge Mod Loader version 12.17.0.2051 for Minecraft 1.9.4 loading
-[11:11:43] [Thread-3/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_181, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_181
-[11:11:43] [Thread-3/DEBUG] [FML/]: Java classpath at launch is C:\Users\valen\workspace\HappyBlocks Launcher\bin;C:\Users\valen\workspace\Libs\gson-2.3.1.jar;C:\Users\valen\workspace\Libs\openlauncherlib-3.0.4.jar;C:\Users\valen\workspace\Libs\s-update-3.1.0-BETA.jar;C:\Users\valen\workspace\Libs\swinger-1.0.0-BETA.jar;C:\Users\valen\workspace\Libs\zip4j-1.3.2.jar;C:\Users\valen\workspace\Libs\openauth-1.0.3-SNAPSHOT.jar
-[11:11:43] [Thread-3/DEBUG] [FML/]: Java library path at launch is C:\Users\valen\AppData\Roaming\.HappyBlocks\natives
-[11:11:43] [Thread-3/DEBUG] [FML/]: Enabling runtime deobfuscation
-[11:11:44] [Thread-3/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
-[11:11:44] [Thread-3/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[11:11:44] [Thread-3/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
-[11:11:44] [Thread-3/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
-[11:11:44] [Thread-3/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
-[11:11:44] [Thread-3/DEBUG] [FML/]: All fundamental core mods are successfully located
-[11:11:44] [Thread-3/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\valen\AppData\Roaming\.HappyBlocks
-[11:11:44] [Thread-3/DEBUG] [FML/]: Discovering coremods
-[11:11:44] [Thread-3/DEBUG] [FML/]: Examining for coremod candidacy CustomMainMenu-MC1.9.4-2.0.1.jar
-[11:11:44] [Thread-3/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CustomMainMenu-MC1.9.4-2.0.1.jar, it will be examined later for regular @Mod instances
-[11:11:44] [Thread-3/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
-[11:11:44] [Thread-3/WARN] [FML/]: The coremod lumien.custommainmenu.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[11:11:44] [Thread-3/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
-[11:11:44] [Thread-3/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:11:44] [Thread-3/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[11:11:44] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:11:44] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:11:44] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:11:44] [Thread-3/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
-[11:11:44] [Thread-3/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
-[11:11:44] [Thread-3/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
-[11:11:44] [Thread-3/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
-[11:11:44] [Thread-3/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
-[11:11:44] [Thread-3/DEBUG] [FML/]: Injection complete
-[11:11:44] [Thread-3/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
-[11:11:44] [Thread-3/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
-[11:11:46] [Thread-3/DEBUG] [FML/]: Read 866 binary patches
-[11:11:47] [Thread-3/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.9.4.lzma with 31813 records
-[11:11:52] [Thread-3/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[11:11:52] [Thread-3/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
-[11:11:52] [Thread-3/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
-[11:11:52] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:11:52] [Thread-3/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
-[11:11:52] [Thread-3/DEBUG] [FML/]: Injection complete
-[11:11:52] [Thread-3/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
-[11:11:52] [Thread-3/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
-[11:11:52] [Thread-3/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
-[11:11:52] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[11:11:52] [Thread-3/DEBUG] [FML/]: Loaded 188 rules from AccessTransformer config file forge_at.cfg
-[11:11:52] [Thread-3/DEBUG] [FML/]: Loaded 19 rules from AccessTransformer mod jar file C:\Users\valen\AppData\Roaming\.HappyBlocks\mods\CustomMainMenu-MC1.9.4-2.0.1.jar!META-INF/CustomMainMenu_At.cfg
+[22:53:26] [Thread-4/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[22:53:26] [Thread-4/INFO] [FML/]: Forge Mod Loader version 12.17.0.2051 for Minecraft 1.9.4 loading
+[22:53:26] [Thread-4/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_181, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_181
+[22:53:26] [Thread-4/DEBUG] [FML/]: Java classpath at launch is C:\Users\valen\workspace\HappyBlocks Launcher\bin;C:\Users\valen\workspace\Libs\gson-2.3.1.jar;C:\Users\valen\workspace\Libs\openlauncherlib-3.0.4.jar;C:\Users\valen\workspace\Libs\s-update-3.1.0-BETA.jar;C:\Users\valen\workspace\Libs\swinger-1.0.0-BETA.jar;C:\Users\valen\workspace\Libs\zip4j-1.3.2.jar;C:\Users\valen\workspace\Libs\openauth-1.0.3-SNAPSHOT.jar;C:\Users\valen\workspace\Libs\java-discord-rpc-2.0.1-all.jar
+[22:53:26] [Thread-4/DEBUG] [FML/]: Java library path at launch is C:\Users\valen\AppData\Roaming\.HappyBlocks\natives
+[22:53:26] [Thread-4/DEBUG] [FML/]: Enabling runtime deobfuscation
+[22:53:26] [Thread-4/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[22:53:26] [Thread-4/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[22:53:26] [Thread-4/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[22:53:26] [Thread-4/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[22:53:26] [Thread-4/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[22:53:26] [Thread-4/DEBUG] [FML/]: All fundamental core mods are successfully located
+[22:53:26] [Thread-4/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\valen\AppData\Roaming\.HappyBlocks
+[22:53:26] [Thread-4/DEBUG] [FML/]: Discovering coremods
+[22:53:26] [Thread-4/DEBUG] [FML/]: Examining for coremod candidacy CustomMainMenu-MC1.9.4-2.0.1.jar
+[22:53:26] [Thread-4/TRACE] [FML/]: Found FMLCorePluginContainsFMLMod marker in CustomMainMenu-MC1.9.4-2.0.1.jar, it will be examined later for regular @Mod instances
+[22:53:26] [Thread-4/DEBUG] [FML/]: Instantiating coremod class LoadingPlugin
+[22:53:26] [Thread-4/WARN] [FML/]: The coremod lumien.custommainmenu.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[22:53:26] [Thread-4/DEBUG] [FML/]: Enqueued coremod LoadingPlugin
+[22:53:26] [Thread-4/DEBUG] [FML/]: Examining for coremod candidacy OptiFine_1.9.4_HD_U_E3.jar
+[22:53:26] [Thread-4/INFO] [FML/]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.9.4_HD_U_E3.jar
+[22:53:26] [Thread-4/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:53:26] [Thread-4/INFO] [LaunchWrapper/]: Loading tweak class name optifine.OptiFineForgeTweaker
+[22:53:26] [Thread-4/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:53:26] [Thread-4/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:53:26] [Thread-4/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:53:26] [Thread-4/INFO] [LaunchWrapper/]: Calling tweak class optifine.OptiFineForgeTweaker
+[22:53:26] [Thread-4/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[22:53:26] [Thread-4/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[22:53:26] [Thread-4/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:266]: OptiFine ClassTransformer
+[22:53:26] [Thread-4/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:266]: OptiFine URL: file:/C:/Users/valen/AppData/Roaming/.HappyBlocks/mods/OptiFine_1.9.4_HD_U_E3.jar
+[22:53:26] [Thread-4/INFO] [STDOUT/]: [optifine.OptiFineClassTransformer:dbg:266]: OptiFine ZIP file: C:\Users\valen\AppData\Roaming\.HappyBlocks\mods\OptiFine_1.9.4_HD_U_E3.jar
+[22:53:26] [Thread-4/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:53:26] [Thread-4/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[22:53:26] [Thread-4/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[22:53:26] [Thread-4/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[22:53:26] [Thread-4/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[22:53:26] [Thread-4/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[22:53:26] [Thread-4/DEBUG] [FML/]: Injection complete
+[22:53:26] [Thread-4/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[22:53:26] [Thread-4/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[22:53:28] [Thread-4/DEBUG] [FML/]: Read 866 binary patches
+[22:53:28] [Thread-4/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.9.4.lzma with 31813 records
+[22:53:31] [Thread-4/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:53:31] [Thread-4/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[22:53:31] [Thread-4/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[22:53:31] [Thread-4/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:53:31] [Thread-4/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[22:53:31] [Thread-4/DEBUG] [FML/]: Injection complete
+[22:53:31] [Thread-4/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[22:53:31] [Thread-4/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[22:53:31] [Thread-4/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[22:53:31] [Thread-4/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:53:31] [Thread-4/DEBUG] [FML/]: Loaded 188 rules from AccessTransformer config file forge_at.cfg
+[22:53:31] [Thread-4/DEBUG] [FML/]: Loaded 19 rules from AccessTransformer mod jar file C:\Users\valen\AppData\Roaming\.HappyBlocks\mods\CustomMainMenu-MC1.9.4-2.0.1.jar!META-INF/CustomMainMenu_At.cfg
 
-[11:11:52] [Thread-3/DEBUG] [FML/]: Validating minecraft
-[11:11:53] [Thread-3/DEBUG] [FML/]: Minecraft validated, launching...
-[11:11:53] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:11:53] [Thread-3/DEBUG] [FML/]: Injecting coremod LoadingPlugin {lumien.custommainmenu.asm.LoadingPlugin} class transformers
-[11:11:53] [Thread-3/TRACE] [FML/]: Registering transformer lumien.custommainmenu.asm.ClassTransformer
-[11:11:53] [Thread-3/DEBUG] [FML/]: Injection complete
-[11:11:53] [Thread-3/DEBUG] [FML/]: Running coremod plugin for LoadingPlugin {lumien.custommainmenu.asm.LoadingPlugin}
-[11:11:53] [Thread-3/DEBUG] [FML/]: Running coremod plugin LoadingPlugin
-[11:11:53] [Thread-3/DEBUG] [FML/]: Coremod plugin class LoadingPlugin run successfully
-[11:11:53] [Thread-3/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[11:11:53] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[11:11:53] [Thread-3/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[11:12:05] [Client thread/DEBUG] [FML/]: Creating vanilla freeze snapshot
-[11:12:05] [Client thread/DEBUG] [FML/]: Vanilla freeze snapshot created
-[11:12:11] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0,005s
-[11:12:11] [Client thread/INFO] [STDOUT/]: [net.minecraftforge.fml.client.SplashProgress:start:200]: ---- Minecraft Crash Report ----
+[22:53:31] [Thread-4/DEBUG] [FML/]: Validating minecraft
+[22:53:32] [Thread-4/DEBUG] [FML/]: Minecraft validated, launching...
+[22:53:32] [Thread-4/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:53:32] [Thread-4/DEBUG] [FML/]: Injecting coremod LoadingPlugin {lumien.custommainmenu.asm.LoadingPlugin} class transformers
+[22:53:32] [Thread-4/TRACE] [FML/]: Registering transformer lumien.custommainmenu.asm.ClassTransformer
+[22:53:32] [Thread-4/DEBUG] [FML/]: Injection complete
+[22:53:32] [Thread-4/DEBUG] [FML/]: Running coremod plugin for LoadingPlugin {lumien.custommainmenu.asm.LoadingPlugin}
+[22:53:32] [Thread-4/DEBUG] [FML/]: Running coremod plugin LoadingPlugin
+[22:53:32] [Thread-4/DEBUG] [FML/]: Coremod plugin class LoadingPlugin run successfully
+[22:53:32] [Thread-4/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:53:32] [Thread-4/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:53:32] [Thread-4/INFO] [STDOUT/]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[22:53:32] [Thread-4/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:53:41] [Client thread/DEBUG] [FML/]: Creating vanilla freeze snapshot
+[22:53:41] [Client thread/DEBUG] [FML/]: Vanilla freeze snapshot created
+[22:53:42] [Client thread/INFO] [Config/]: [OptiFine] *** Reflector Forge ***
+[22:53:42] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[22:53:42] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getSoundType
+[22:53:43] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Method not present: net.minecraftforge.client.ForgeHooksClient.renderSpecificFirstPersonHand
+[22:53:43] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Method not present: net.minecraft.item.ItemArmor.hasOverlay
+[22:53:43] [Client thread/INFO] [Config/]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.initCapabilities
+[22:53:44] [Client thread/INFO] [Config/]: [OptiFine] *** Reflector Vanilla ***
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] 
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] OptiFine_1.9.4_HD_U_E3
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] Build: 20170629-104812
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] Java: 1.8.0_181, Oracle Corporation
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] LWJGL: 2.9.4
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] OpenGL: Intel(R) HD Graphics 4400, version 4.3.0 - Build 20.19.15.4331, Intel
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] OpenGL Version: 4.3.0
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[22:53:47] [Client thread/INFO] [Config/]: [OptiFine] Maximum texture size: 8192x8192
+[22:53:47] [Thread-11/INFO] [Config/]: [OptiFine] Checking for new version
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] ShadersMod version: 2.4.12
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] OpenGL Version: 4.3.0 - Build 20.19.15.4331
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Vendor:  Intel
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Renderer: Intel(R) HD Graphics 4400
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] Load ShadersMod configuration.
+[22:53:47] [Client thread/INFO] [shadersmod.common.SMCLog/]: [Shaders] No shaderpack loaded.
+[22:53:47] [Thread-11/INFO] [Config/]: [OptiFine] Version found: E7
+[22:53:48] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0,004s
+[22:53:48] [Client thread/INFO] [FML/]: Forge Mod Loader has detected optifine OptiFine_1.9.4_HD_U_E3, enabling compatibility features
+[22:53:48] [Client thread/INFO] [STDOUT/]: [net.minecraftforge.fml.client.SplashProgress:start:200]: ---- Minecraft Crash Report ----
 
 WARNING: coremods are present:
   LoadingPlugin (CustomMainMenu-MC1.9.4-2.0.1.jar)
 Contact their authors BEFORE contacting forge
 
-// I bet Cylons wouldn't have this problem.
+// There are four lights!
 
-Time: 21/08/18 11:12
+Time: 26/08/18 22:53
 Description: Loading screen debug info
 
 This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
@@ -83,7 +124,7 @@ Details:
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_181, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 327432656 bytes (312 MB) / 541589504 bytes (516 MB) up to 937951232 bytes (894 MB)
+	Memory: 269701216 bytes (257 MB) / 558366720 bytes (532 MB) up to 937951232 bytes (894 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
@@ -91,173 +132,188 @@ Details:
 LoadingPlugin (CustomMainMenu-MC1.9.4-2.0.1.jar)
   lumien.custommainmenu.asm.ClassTransformer
 	GL info: ' Vendor: 'Intel' Version: '4.3.0 - Build 20.19.15.4331' Renderer: 'Intel(R) HD Graphics 4400'
-[11:12:12] [Client thread/INFO] [FML/]: MinecraftForge v12.17.0.2051 Initialized
-[11:12:12] [Client thread/INFO] [FML/]: Replaced 232 ore recipes
-[11:12:12] [Client thread/DEBUG] [FML/]: File C:\Users\valen\AppData\Roaming\.HappyBlocks\config\injectedDependencies.json not found. No dependencies injected
-[11:12:12] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
-[11:12:13] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
-[11:12:13] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\valen\workspace\HappyBlocks Launcher\bin, examining for mod candidates
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\workspace\Libs\gson-2.3.1.jar
-[11:12:13] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\openlauncherlib-3.0.4.jar, examining for mod candidates
-[11:12:13] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\s-update-3.1.0-BETA.jar, examining for mod candidates
-[11:12:13] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\swinger-1.0.0-BETA.jar, examining for mod candidates
-[11:12:13] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\zip4j-1.3.2.jar, examining for mod candidates
-[11:12:13] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\openauth-1.0.3-SNAPSHOT.jar, examining for mod candidates
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\akka-actor_2.11-2.3.3.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\asm-all-5.0.3.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\authlib-1.5.22.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\codecjorbis-20101023.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\codecwav-20101023.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-codec-1.9.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-compress-1.8.1.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-io-2.4.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-lang3-3.3.2.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-logging-1.1.3.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\config-1.2.1.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\fastutil-7.0.12_mojang.jar
-[11:12:13] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\forge-1.9.4-12.17.0.2051.jar, examining for mod candidates
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\gson-2.2.4.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\guava-17.0.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\httpclient-4.3.3.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\httpcore-4.3.2.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\icu4j-core-mojang-51.2.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jinput-2.0.5.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jline-2.13.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jna-3.4.0.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jopt-simple-4.6.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jutils-1.0.0.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\launchwrapper-1.12.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\libraryjavasound-20101123.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\librarylwjglopenal-20100824.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\log4j-api-2.0-beta9.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\log4j-core-2.0-beta9.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\lwjgl-2.9.4-nightly-20150209.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\lwjgl_util-2.9.4-nightly-20150209.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\lzma-0.0.1.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\netty-1.6.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\netty-all-4.0.23.Final.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\oshi-core-1.1.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\platform-3.4.0.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\realms-1.8.19.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-actors-migration_2.11-1.1.0.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-compiler-2.11.1.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-continuations-library_2.11-1.0.2.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-continuations-plugin_2.11.1-1.0.2.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-library-2.11.1.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-parser-combinators_2.11-1.0.1.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-reflect-2.11.1.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-swing_2.11-1.0.1.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-xml_2.11-1.0.2.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\soundsystem-20120107.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\trove4j-3.0.3.jar
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\vecmath-1.5.2.jar
-[11:12:13] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\AppData\Roaming\.HappyBlocks\minecraft.jar, examining for mod candidates
-[11:12:13] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\mods\CustomMainMenu-MC1.9.4-2.0.1.jar
-[11:12:13] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
-[11:12:13] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
-[11:12:13] [Client thread/INFO] [FML/]: Searching C:\Users\valen\AppData\Roaming\.HappyBlocks\mods for mods
-[11:12:13] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file CustomMainMenu-MC1.9.4-2.0.1.jar
-[11:12:13] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
-[11:12:13] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory bin
-[11:12:13] [Client thread/TRACE] [FML/]: Recursing into package info
-[11:12:13] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks
-[11:12:13] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks
-[11:12:13] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks/bootstrap
-[11:12:13] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks/bootstrap/resources
-[11:12:13] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks/launcher
-[11:12:13] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks/launcher/resources
-[11:12:14] [Client thread/DEBUG] [FML/]: Examining file openlauncherlib-3.0.4.jar for potential mods
-[11:12:14] [Client thread/DEBUG] [FML/]: The mod container openlauncherlib-3.0.4.jar appears to be missing an mcmod.info file
-[11:12:14] [Client thread/DEBUG] [FML/]: Examining file s-update-3.1.0-BETA.jar for potential mods
-[11:12:14] [Client thread/DEBUG] [FML/]: The mod container s-update-3.1.0-BETA.jar appears to be missing an mcmod.info file
-[11:12:15] [Client thread/DEBUG] [FML/]: Examining file swinger-1.0.0-BETA.jar for potential mods
-[11:12:15] [Client thread/DEBUG] [FML/]: The mod container swinger-1.0.0-BETA.jar appears to be missing an mcmod.info file
-[11:12:15] [Client thread/DEBUG] [FML/]: Examining file zip4j-1.3.2.jar for potential mods
-[11:12:15] [Client thread/DEBUG] [FML/]: The mod container zip4j-1.3.2.jar appears to be missing an mcmod.info file
-[11:12:15] [Client thread/DEBUG] [FML/]: Examining file openauth-1.0.3-SNAPSHOT.jar for potential mods
-[11:12:15] [Client thread/DEBUG] [FML/]: The mod container openauth-1.0.3-SNAPSHOT.jar appears to be missing an mcmod.info file
-[11:12:15] [Client thread/DEBUG] [FML/]: Examining file forge-1.9.4-12.17.0.2051.jar for potential mods
-[11:12:15] [Client thread/DEBUG] [FML/]: The mod container forge-1.9.4-12.17.0.2051.jar appears to be missing an mcmod.info file
-[11:12:16] [Client thread/DEBUG] [FML/]: Examining file minecraft.jar for potential mods
-[11:12:16] [Client thread/DEBUG] [FML/]: The mod container minecraft.jar appears to be missing an mcmod.info file
-[11:12:17] [Client thread/DEBUG] [FML/]: Examining file CustomMainMenu-MC1.9.4-2.0.1.jar for potential mods
-[11:12:17] [Client thread/TRACE] [FML/]: Located mcmod.info file in file CustomMainMenu-MC1.9.4-2.0.1.jar
-[11:12:17] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (lumien.custommainmenu.CustomMainMenu) - loading
-[11:12:17] [Client thread/TRACE] [CustomMainMenu/]: Parsed dependency info : [] [] []
-[11:12:18] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
-[11:12:18] [Client thread/TRACE] [FML/]: Received a system property request ''
-[11:12:18] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
-[11:12:18] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
-[11:12:18] [Client thread/DEBUG] [CustomMainMenu/]: Enabling mod CustomMainMenu
-[11:12:18] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
-[11:12:18] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
-[11:12:18] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
-[11:12:18] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
-[11:12:18] [Client thread/DEBUG] [FML/]: Mod sorting data
-[11:12:18] [Client thread/DEBUG] [FML/]: 	CustomMainMenu(Custom Main Menu:2.0.1): CustomMainMenu-MC1.9.4-2.0.1.jar ()
-[11:12:18] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
-[11:12:18] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
-[11:12:18] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,007s
-[11:12:18] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
-[11:12:18] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
-[11:12:18] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
-[11:12:18] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
-[11:12:18] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CustomMainMenu] at CLIENT
-[11:12:18] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CustomMainMenu] at SERVER
-[11:12:19] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
-[11:12:19] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 1,433s
-[11:12:19] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
-[11:12:19] [Client thread/DEBUG] [Forge/Forge]: Preloading CrashReport Classes
-[11:12:19] [Client thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/client/SplashProgress$1
-[11:12:19] [Client thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
-[11:12:19] [Client thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/common/Loader$3
-[11:12:19] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
-[11:12:19] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
-[11:12:19] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (12.17.0.2051)
-[11:12:19] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
-[11:12:19] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0,039s
-[11:12:19] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLConstructionEvent to mod CustomMainMenu
-[11:12:19] [Client thread/TRACE] [FML/CustomMainMenu]: Mod CustomMainMenu is using network checker : Accepting version 2.0.1
-[11:12:19] [Client thread/TRACE] [FML/CustomMainMenu]: Testing mod CustomMainMenu to verify it accepts its own version in a remote connection
-[11:12:19] [Client thread/TRACE] [FML/CustomMainMenu]: The mod CustomMainMenu accepts its own version (2.0.1)
-[11:12:19] [Client thread/DEBUG] [FML/CustomMainMenu]: Attempting to inject @SidedProxy classes into CustomMainMenu
-[11:12:19] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLConstructionEvent to mod CustomMainMenu
-[11:12:19] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Custom Main Menu took 0,165s
-[11:12:19] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 1,645s
-[11:12:19] [Client thread/DEBUG] [FML/]: Mod signature data
-[11:12:19] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
-[11:12:19] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.9.4-12.17.0.2051.jar
-[11:12:19] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	12.17.0.2051)	forge-1.9.4-12.17.0.2051.jar
-[11:12:19] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
-[11:12:19] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
-[11:12:19] [Client thread/DEBUG] [FML/]: 		CustomMainMenu	(Custom Main Menu	2.0.1)	CustomMainMenu-MC1.9.4-2.0.1.jar
-[11:12:19] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,014s
-[11:12:20] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,035s
-[11:12:20] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,006s
-[11:12:20] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Custom Main Menu took 0,015s
-[11:12:20] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0,178s
-[11:12:20] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0,179s
-[11:12:20] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0,249s
-[11:12:20] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
-[11:12:20] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
-[11:12:20] [Client thread/DEBUG] [Custom Main Menu/]: Mod Custom Main Menu is missing a pack.mcmeta file, substituting a dummy one
-[11:12:20] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
-[11:12:20] [Client thread/INFO] [FML/]: Found 418 ObjectHolder annotations
-[11:12:20] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
-[11:12:20] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
-[11:12:20] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
-[11:12:20] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
-[11:12:20] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,001s
-[11:12:20] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
-[11:12:20] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
-[11:12:20] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0,002s
-[11:12:20] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
-[11:12:21] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
-[11:12:21] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
-[11:12:21] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0,322s
-[11:12:21] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLPreInitializationEvent to mod CustomMainMenu
-[11:12:21] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[11:12:21] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [Forge] Received version check data:
+[22:53:48] [Client thread/INFO] [FML/]: MinecraftForge v12.17.0.2051 Initialized
+[22:53:48] [Client thread/INFO] [FML/]: Replaced 232 ore recipes
+[22:53:48] [Client thread/DEBUG] [FML/]: File C:\Users\valen\AppData\Roaming\.HappyBlocks\config\injectedDependencies.json not found. No dependencies injected
+[22:53:48] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[22:53:48] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\valen\workspace\HappyBlocks Launcher\bin, examining for mod candidates
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\workspace\Libs\gson-2.3.1.jar
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\openlauncherlib-3.0.4.jar, examining for mod candidates
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\s-update-3.1.0-BETA.jar, examining for mod candidates
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\swinger-1.0.0-BETA.jar, examining for mod candidates
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\zip4j-1.3.2.jar, examining for mod candidates
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\openauth-1.0.3-SNAPSHOT.jar, examining for mod candidates
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\workspace\Libs\java-discord-rpc-2.0.1-all.jar, examining for mod candidates
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\akka-actor_2.11-2.3.3.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\asm-all-5.0.3.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\authlib-1.5.22.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\codecjorbis-20101023.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\codecwav-20101023.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-codec-1.9.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-compress-1.8.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-io-2.4.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-lang3-3.3.2.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\commons-logging-1.1.3.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\config-1.2.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\fastutil-7.0.12_mojang.jar
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\forge-1.9.4-12.17.0.2051.jar, examining for mod candidates
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\gson-2.2.4.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\guava-17.0.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\httpclient-4.3.3.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\httpcore-4.3.2.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\icu4j-core-mojang-51.2.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jinput-2.0.5.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jline-2.13.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jna-3.4.0.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jopt-simple-4.6.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\jutils-1.0.0.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\launchwrapper-1.12.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\libraryjavasound-20101123.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\librarylwjglopenal-20100824.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\log4j-api-2.0-beta9.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\log4j-core-2.0-beta9.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\lwjgl-2.9.4-nightly-20150209.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\lwjgl_util-2.9.4-nightly-20150209.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\lzma-0.0.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\netty-1.6.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\netty-all-4.0.23.Final.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\oshi-core-1.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\platform-3.4.0.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\realms-1.8.19.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-actors-migration_2.11-1.1.0.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-compiler-2.11.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-continuations-library_2.11-1.0.2.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-continuations-plugin_2.11.1-1.0.2.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-library-2.11.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-parser-combinators_2.11-1.0.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-reflect-2.11.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-swing_2.11-1.0.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\scala-xml_2.11-1.0.2.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\soundsystem-20120107.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\trove4j-3.0.3.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\libs\vecmath-1.5.2.jar
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\valen\AppData\Roaming\.HappyBlocks\minecraft.jar, examining for mod candidates
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\mods\CustomMainMenu-MC1.9.4-2.0.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping known library file C:\Users\valen\AppData\Roaming\.HappyBlocks\mods\OptiFine_1.9.4_HD_U_E3.jar
+[22:53:48] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[22:53:48] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[22:53:48] [Client thread/INFO] [FML/]: Searching C:\Users\valen\AppData\Roaming\.HappyBlocks\mods for mods
+[22:53:48] [Client thread/DEBUG] [FML/]: Found a candidate zip or jar file CustomMainMenu-MC1.9.4-2.0.1.jar
+[22:53:48] [Client thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker OptiFine_1.9.4_HD_U_E3.jar
+[22:53:48] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
+[22:53:48] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory bin
+[22:53:48] [Client thread/TRACE] [FML/]: Recursing into package info
+[22:53:48] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks
+[22:53:48] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks
+[22:53:48] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks/bootstrap
+[22:53:49] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks/bootstrap/resources
+[22:53:49] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks/launcher
+[22:53:49] [Client thread/TRACE] [FML/]: Recursing into package info/happyblocks/happyblocks/launcher/resources
+[22:53:49] [Client thread/DEBUG] [FML/]: Examining file openlauncherlib-3.0.4.jar for potential mods
+[22:53:49] [Client thread/DEBUG] [FML/]: The mod container openlauncherlib-3.0.4.jar appears to be missing an mcmod.info file
+[22:53:49] [Client thread/DEBUG] [FML/]: Examining file s-update-3.1.0-BETA.jar for potential mods
+[22:53:49] [Client thread/DEBUG] [FML/]: The mod container s-update-3.1.0-BETA.jar appears to be missing an mcmod.info file
+[22:53:49] [Client thread/DEBUG] [FML/]: Examining file swinger-1.0.0-BETA.jar for potential mods
+[22:53:49] [Client thread/DEBUG] [FML/]: The mod container swinger-1.0.0-BETA.jar appears to be missing an mcmod.info file
+[22:53:49] [Client thread/DEBUG] [FML/]: Examining file zip4j-1.3.2.jar for potential mods
+[22:53:49] [Client thread/DEBUG] [FML/]: The mod container zip4j-1.3.2.jar appears to be missing an mcmod.info file
+[22:53:49] [Client thread/DEBUG] [FML/]: Examining file openauth-1.0.3-SNAPSHOT.jar for potential mods
+[22:53:49] [Client thread/DEBUG] [FML/]: The mod container openauth-1.0.3-SNAPSHOT.jar appears to be missing an mcmod.info file
+[22:53:49] [Client thread/DEBUG] [FML/]: Examining file java-discord-rpc-2.0.1-all.jar for potential mods
+[22:53:49] [Client thread/DEBUG] [FML/]: The mod container java-discord-rpc-2.0.1-all.jar appears to be missing an mcmod.info file
+[22:53:49] [Client thread/DEBUG] [FML/]: Examining file forge-1.9.4-12.17.0.2051.jar for potential mods
+[22:53:49] [Client thread/DEBUG] [FML/]: The mod container forge-1.9.4-12.17.0.2051.jar appears to be missing an mcmod.info file
+[22:53:50] [Client thread/DEBUG] [FML/]: Examining file minecraft.jar for potential mods
+[22:53:50] [Client thread/DEBUG] [FML/]: The mod container minecraft.jar appears to be missing an mcmod.info file
+[22:53:52] [Client thread/DEBUG] [FML/]: Examining file CustomMainMenu-MC1.9.4-2.0.1.jar for potential mods
+[22:53:52] [Client thread/TRACE] [FML/]: Located mcmod.info file in file CustomMainMenu-MC1.9.4-2.0.1.jar
+[22:53:52] [Client thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (lumien.custommainmenu.CustomMainMenu) - loading
+[22:53:52] [Client thread/TRACE] [CustomMainMenu/]: Parsed dependency info : [] [] []
+[22:53:52] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[22:53:52] [Client thread/TRACE] [FML/]: Received a system property request ''
+[22:53:52] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[22:53:52] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[22:53:52] [Client thread/DEBUG] [CustomMainMenu/]: Enabling mod CustomMainMenu
+[22:53:52] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[22:53:52] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[22:53:52] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[22:53:52] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[22:53:52] [Client thread/DEBUG] [FML/]: Mod sorting data
+[22:53:52] [Client thread/DEBUG] [FML/]: 	CustomMainMenu(Custom Main Menu:2.0.1): CustomMainMenu-MC1.9.4-2.0.1.jar ()
+[22:53:52] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[22:53:52] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[22:53:52] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,006s
+[22:53:52] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[22:53:53] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[22:53:53] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[22:53:53] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[22:53:53] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CustomMainMenu] at CLIENT
+[22:53:53] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CustomMainMenu] at SERVER
+[22:53:54] [Client thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 1,272s
+[22:53:54] [Client thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[22:53:54] [Client thread/DEBUG] [Forge/Forge]: Preloading CrashReport Classes
+[22:53:54] [Client thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[22:53:54] [Client thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[22:53:54] [Client thread/DEBUG] [Forge/Forge]: 	net/minecraftforge/fml/common/Loader$3
+[22:53:54] [Client thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[22:53:54] [Client thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[22:53:54] [Client thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (12.17.0.2051)
+[22:53:54] [Client thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0,037s
+[22:53:54] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLConstructionEvent to mod CustomMainMenu
+[22:53:54] [Client thread/TRACE] [FML/CustomMainMenu]: Mod CustomMainMenu is using network checker : Accepting version 2.0.1
+[22:53:54] [Client thread/TRACE] [FML/CustomMainMenu]: Testing mod CustomMainMenu to verify it accepts its own version in a remote connection
+[22:53:54] [Client thread/TRACE] [FML/CustomMainMenu]: The mod CustomMainMenu accepts its own version (2.0.1)
+[22:53:54] [Client thread/DEBUG] [FML/CustomMainMenu]: Attempting to inject @SidedProxy classes into CustomMainMenu
+[22:53:54] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLConstructionEvent to mod CustomMainMenu
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Custom Main Menu took 0,103s
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Finished: Construction took 1,418s
+[22:53:54] [Client thread/DEBUG] [FML/]: Mod signature data
+[22:53:54] [Client thread/DEBUG] [FML/]:  	Valid Signatures:
+[22:53:54] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.9.4-12.17.0.2051.jar
+[22:53:54] [Client thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	12.17.0.2051)	forge-1.9.4-12.17.0.2051.jar
+[22:53:54] [Client thread/DEBUG] [FML/]:  	Missing Signatures:
+[22:53:54] [Client thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[22:53:54] [Client thread/DEBUG] [FML/]: 		CustomMainMenu	(Custom Main Menu	2.0.1)	CustomMainMenu-MC1.9.4-2.0.1.jar
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,011s
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,008s
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,004s
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Custom Main Menu took 0,002s
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading - LanguageManager took 0,080s
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 0,081s
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 0,107s
+[22:53:54] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[22:53:54] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[22:53:54] [Client thread/DEBUG] [Custom Main Menu/]: Mod Custom Main Menu is missing a pack.mcmeta file, substituting a dummy one
+[22:53:54] [Client thread/INFO] [FML/]: Processing ObjectHolder annotations
+[22:53:54] [Client thread/INFO] [FML/]: Found 418 ObjectHolder annotations
+[22:53:54] [Client thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[22:53:54] [Client thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[22:53:54] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[22:53:54] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,001s
+[22:53:54] [Client thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[22:53:54] [Client thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0,001s
+[22:53:54] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[22:53:54] [Client thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[22:53:54] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0,161s
+[22:53:54] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLPreInitializationEvent to mod CustomMainMenu
+[22:53:54] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:53:54] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLPreInitializationEvent to mod CustomMainMenu
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Custom Main Menu took 0,228s
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0,392s
+[22:53:54] [Client thread/INFO] [FML/]: Applying holder lookups
+[22:53:54] [Client thread/INFO] [FML/]: Holder lookups applied
+[22:53:54] [Client thread/INFO] [FML/]: Injecting itemstacks
+[22:53:54] [Client thread/INFO] [FML/]: Itemstack injection complete
+[22:53:54] [Client thread/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[22:53:54] [Client thread/INFO] [Config/]: [OptiFine] Resource packs: Default
+[22:53:54] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0,005s
+[22:53:55] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [Forge] Received version check data:
 {
   "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
   "promos": {
@@ -272,7 +328,7 @@ LoadingPlugin (CustomMainMenu-MC1.9.4-2.0.1.jar)
     "1.12-recommended": "14.21.1.2387",
     "1.12.1-latest": "14.22.1.2485",
     "1.12.1-recommended": "14.22.1.2478",
-    "1.12.2-latest": "14.23.4.2757",
+    "1.12.2-latest": "14.23.4.2758",
     "1.12.2-recommended": "14.23.4.2705",
     "1.5.2-latest": "7.8.1.738",
     "1.5.2-recommended": "7.8.1.737",
@@ -296,149 +352,289 @@ LoadingPlugin (CustomMainMenu-MC1.9.4-2.0.1.jar)
     "1.9-recommended": "12.16.1.1887",
     "1.9.4-latest": "12.17.0.2051",
     "1.9.4-recommended": "12.17.0.1976",
-    "latest": "14.23.4.2757",
+    "latest": "14.23.4.2758",
     "latest-1.7.10": "10.13.2.1343",
     "recommended": "14.23.4.2705"
   }
 }
-[11:12:21] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLPreInitializationEvent to mod CustomMainMenu
-[11:12:21] [Client thread/DEBUG] [FML/]: Bar Step: PreInitialization - Custom Main Menu took 0,574s
-[11:12:21] [Client thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0,899s
-[11:12:21] [Client thread/INFO] [FML/]: Applying holder lookups
-[11:12:21] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Found status: AHEAD Target: null
-[11:12:21] [Client thread/INFO] [FML/]: Holder lookups applied
-[11:12:21] [Client thread/INFO] [FML/]: Injecting itemstacks
-[11:12:21] [Client thread/INFO] [FML/]: Itemstack injection complete
-[11:12:21] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureManager took 0,061s
-[11:12:37] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 15,020s
-[11:12:37] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,024s
-[11:12:37] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,010s
-[11:12:37] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0,033s
-[11:12:37] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0,036s
-[11:12:37] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0,014s
-[11:12:37] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0,292s
-[11:12:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - B3DLoader took 0,000s
-[11:12:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - OBJLoader took 0,000s
-[11:12:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0,000s
-[11:12:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0,000s
-[11:12:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0,000s
-[11:12:38] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0,000s
-[11:12:49] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 10,457s
-[11:12:52] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 3,363s
-[11:12:52] [Client thread/INFO] [FML/]: Max texture size: 8192
-[11:12:52] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching - missingno took 0,004s
-[11:12:52] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,006s
-[11:12:52] [Client thread/DEBUG] [FML/]: Bar Finished: Texture mipmap and upload - missingno took 0,001s
-[11:12:56] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 3,976s
-[11:12:57] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 18,842s
-[11:12:57] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 19,478s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0,009s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0,870s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0,000s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0,000s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0,000s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0,409s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 21,063s
-[11:12:58] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
-[11:12:58] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0,003s
-[11:12:58] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
-[11:12:58] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0,001s
-[11:12:58] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
-[11:12:58] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0,002s
-[11:12:58] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLInitializationEvent to mod CustomMainMenu
-[11:12:58] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLInitializationEvent to mod CustomMainMenu
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Custom Main Menu took 0,001s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0,007s
-[11:12:58] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
-[11:12:58] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
-[11:12:58] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0,015s
-[11:12:58] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
-[11:12:58] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
-[11:12:58] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0,000s
-[11:12:58] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
-[11:12:58] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
-[11:12:58] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0,001s
-[11:12:58] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod CustomMainMenu
-[11:12:58] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event IMCEvent to mod CustomMainMenu
-[11:12:58] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event IMCEvent to mod CustomMainMenu
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Custom Main Menu took 0,001s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0,017s
-[11:12:58] [Client thread/INFO] [FML/]: Injecting itemstacks
-[11:12:58] [Client thread/INFO] [FML/]: Itemstack injection complete
-[11:12:58] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
-[11:12:58] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0,001s
-[11:12:58] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
-[11:12:58] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0,002s
-[11:12:58] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
-[11:12:58] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0,154s
-[11:12:58] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLPostInitializationEvent to mod CustomMainMenu
-[11:12:58] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLPostInitializationEvent to mod CustomMainMenu
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Custom Main Menu took 0,001s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0,157s
-[11:12:58] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
-[11:12:58] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0,001s
-[11:12:58] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
-[11:12:58] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0,001s
-[11:12:58] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
-[11:12:58] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   16: RecipeEntry("Before", UNKNOWN, )
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
-[11:12:58] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
-[11:12:58] [Client thread/DEBUG] [FML/Forge]: Sorting recipes
-[11:12:58] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0,024s
-[11:12:58] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLLoadCompleteEvent to mod CustomMainMenu
-[11:12:58] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLLoadCompleteEvent to mod CustomMainMenu
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Custom Main Menu took 0,001s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0,027s
-[11:12:58] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
-[11:12:58] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 4 mods
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,002s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,004s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,006s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Custom Main Menu took 0,001s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/atlas/blocks.png took 0,000s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii.png took 0,010s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:dynamic/lightMap_1 took 0,000s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/misc/forcefield.png took 0,005s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Step: Reloading Texture Manager - minecraft:textures/font/ascii_sga.png took 0,009s
-[11:12:58] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading Texture Manager took 0,025s
-[11:13:18] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 7,719s
-[11:13:22] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 3,357s
-[11:13:22] [Client thread/INFO] [FML/]: Max texture size: 8192
-[11:13:24] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 2,864s
-[11:13:25] [Client thread/DEBUG] [FML/]: Bar Finished: Texture stitching took 0,098s
-[11:13:25] [Client thread/DEBUG] [FML/]: Bar Finished: Texture creation took 0,106s
-[11:13:28] [Client thread/DEBUG] [FML/]: Bar Finished: Texture mipmap and upload took 3,251s
-[11:13:30] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 2,127s
-[11:13:30] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 31,861s
-[11:13:30] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 31,862s
-[11:13:30] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 31,876s
-[11:13:30] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
-[11:13:30] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
-[11:13:30] [Client thread/DEBUG] [Custom Main Menu/]: Mod Custom Main Menu is missing a pack.mcmeta file, substituting a dummy one
-[11:13:30] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 78,192s
+[22:53:55] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Found status: AHEAD Target: null
+[22:53:58] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - SoundHandler took 3,542s
+[22:53:58] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,016s
+[22:53:58] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FontRenderer took 0,013s
+[22:53:58] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - GrassColorReloadListener took 0,022s
+[22:53:58] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - FoliageColorReloadListener took 0,019s
+[22:53:58] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - GL Setup took 0,005s
+[22:53:58] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Texture Map took 0,010s
+[22:53:59] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - B3DLoader took 0,000s
+[22:53:59] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - OBJLoader took 0,000s
+[22:53:59] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelFluid$FluidLoader took 0,000s
+[22:53:59] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ItemLayerModel$Loader took 0,000s
+[22:53:59] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - MultiLayerModel$Loader took 0,000s
+[22:53:59] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelDynBucket$LoaderDynBucket took 0,000s
+[22:54:06] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 7,202s
+[22:54:09] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 2,681s
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] Mipmap levels: 4
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] Multitexture: false
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[22:54:11] [Client thread/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[22:54:13] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 1,650s
+[22:54:13] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - ModelManager took 14,923s
+[22:54:13] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Model Manager took 15,015s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderItem took 0,008s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Item Renderer took 0,487s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - EntityRenderer took 0,000s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - BlockRendererDispatcher took 0,000s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - RenderGlobal took 0,000s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Rendering Setup - Loading Entity Renderer took 0,336s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Finished: Rendering Setup took 15,853s
+[22:54:14] [Client thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[22:54:14] [Client thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0,001s
+[22:54:14] [Client thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[22:54:14] [Client thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0,001s
+[22:54:14] [Client thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[22:54:14] [Client thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0,000s
+[22:54:14] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLInitializationEvent to mod CustomMainMenu
+[22:54:14] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLInitializationEvent to mod CustomMainMenu
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Initialization - Custom Main Menu took 0,001s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Finished: Initialization took 0,003s
+[22:54:14] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[22:54:14] [Client thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[22:54:14] [Client thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0,012s
+[22:54:14] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[22:54:14] [Client thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[22:54:14] [Client thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0,001s
+[22:54:14] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[22:54:14] [Client thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[22:54:14] [Client thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0,001s
+[22:54:14] [Client thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod CustomMainMenu
+[22:54:14] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event IMCEvent to mod CustomMainMenu
+[22:54:14] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event IMCEvent to mod CustomMainMenu
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Custom Main Menu took 0,001s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0,015s
+[22:54:14] [Client thread/INFO] [FML/]: Injecting itemstacks
+[22:54:14] [Client thread/INFO] [FML/]: Itemstack injection complete
+[22:54:14] [Client thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[22:54:14] [Client thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0,001s
+[22:54:14] [Client thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[22:54:14] [Client thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0,001s
+[22:54:14] [Client thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[22:54:14] [Client thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0,029s
+[22:54:14] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLPostInitializationEvent to mod CustomMainMenu
+[22:54:14] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLPostInitializationEvent to mod CustomMainMenu
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: PostInitialization - Custom Main Menu took 0,002s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0,032s
+[22:54:14] [Client thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[22:54:14] [Client thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0,001s
+[22:54:14] [Client thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[22:54:14] [Client thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0,001s
+[22:54:14] [Client thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[22:54:14] [Client thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   16: RecipeEntry("Before", UNKNOWN, )
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[22:54:14] [Client thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[22:54:14] [Client thread/DEBUG] [FML/Forge]: Sorting recipes
+[22:54:14] [Client thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0,029s
+[22:54:14] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLLoadCompleteEvent to mod CustomMainMenu
+[22:54:14] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLLoadCompleteEvent to mod CustomMainMenu
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: LoadComplete - Custom Main Menu took 0,001s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0,032s
+[22:54:14] [Client thread/DEBUG] [FML/]: Freezing block and item id maps
+[22:54:14] [Client thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 4 mods
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Default took 0,001s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,003s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,005s
+[22:54:14] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - FMLFileResourcePack:Custom Main Menu took 0,001s
+[22:54:14] [Client thread/INFO] [Config/]: [OptiFine] *** Reloading textures ***
+[22:54:14] [Client thread/INFO] [Config/]: [OptiFine] Resource packs: Default
+[22:54:23] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: blocks took 5,036s
+[22:54:26] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: items took 2,667s
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] Mipmap levels: 4
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] Multitexture: false
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] Multipass connected textures: false
+[22:54:29] [Client thread/INFO] [Config/]: [OptiFine] BetterGrass: Parsing default configuration optifine/bettergrass.properties
+[22:54:32] [Client thread/INFO] [Config/]: [OptiFine] Custom loader: TextureAtlasSprite{name='minecraft:white', frameCount=1, rotated=false, x=0, y=0, height=16, width=16, u0=6.25E-4, u1=0.999375, v0=6.25E-4, v1=0.999375}
+[22:54:39] [Client thread/DEBUG] [FML/]: Bar Finished: ModelLoader: baking took 1,100s
+[22:54:39] [Client thread/DEBUG] [FML/]: Bar Finished: Reloading took 24,665s
+[22:54:39] [Client thread/DEBUG] [FML/]: Bar Step: Loading Resources - Reloading listeners took 24,665s
+[22:54:39] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resources took 24,675s
+[22:54:39] [Client thread/DEBUG] [Forge Mod Loader/]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[22:54:39] [Client thread/DEBUG] [Minecraft Forge/]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[22:54:39] [Client thread/DEBUG] [Custom Main Menu/]: Mod Custom Main Menu is missing a pack.mcmeta file, substituting a dummy one
+[22:54:39] [Client thread/DEBUG] [FML/]: Bar Finished: Loading took 51,132s
+[22:54:40] [Client thread/INFO] [Config/]: [OptiFine] *** Reloading custom textures ***
+[22:54:41] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - TextureUtils$1 took 1,278s
+[22:55:06] [Netty Client IO #0/TRACE] [FML/]: Handshake channel activating
+[22:55:06] [Netty Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: null->FMLHandshakeClientState$1:START
+[22:55:06] [Netty Client IO #0/DEBUG] [FML/]:   Next: HELLO
+[22:55:06] [Netty Client IO #0/DEBUG] [FML/]: FMLHandshakeClientState: null->FMLHandshakeClientState$2:HELLO
+[22:55:06] [Netty Client IO #0/INFO] [FML/]: Aborting client handshake "VANILLA"
+[22:55:06] [Netty Client IO #0/INFO] [FML/]: [Netty Client IO #0] Client side vanilla connection established
+[22:55:06] [Netty Client IO #0/DEBUG] [FML/]:   Next: DONE
+[22:55:07] [Client thread/DEBUG] [FML/]: Overriding dimension: using 0
+[22:55:09] [Netty Client IO #0/ERROR] [FML/]: NetworkDispatcher exception
+io.netty.handler.codec.DecoderException: java.io.IOException: Packet 0/32 (SPacketChunkData) was larger than I expected, found 336896 bytes extra whilst reading packet 32
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:280) ~[ByteToMessageDecoder.class:4.0.23.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149) ~[ByteToMessageDecoder.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [ByteToMessageDecoder.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163) [ByteToMessageDecoder.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:150) [ReadTimeoutHandler.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787) [DefaultChannelPipeline.class:4.0.23.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130) [AbstractNioByteChannel$NioByteUnsafe.class:4.0.23.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511) [NioEventLoop.class:4.0.23.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468) [NioEventLoop.class:4.0.23.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382) [NioEventLoop.class:4.0.23.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) [NioEventLoop.class:4.0.23.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [SingleThreadEventExecutor$2.class:4.0.23.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.IOException: Packet 0/32 (SPacketChunkData) was larger than I expected, found 336896 bytes extra whilst reading packet 32
+	at net.minecraft.network.NettyPacketDecoder.decode(SourceFile:42) ~[ep.class:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249) ~[ByteToMessageDecoder.class:4.0.23.Final]
+	... 20 more
+[22:55:09] [Netty Client IO #0/ERROR] [FML/]: NetworkDispatcher exception
+io.netty.handler.codec.DecoderException: java.io.IOException: Packet 0/0 (SPacketSpawnObject) was larger than I expected, found 336841 bytes extra whilst reading packet 0
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:280) ~[ByteToMessageDecoder.class:4.0.23.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:205) ~[ByteToMessageDecoder.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:233) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:219) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:228) [ByteToMessageDecoder.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:233) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:219) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:228) [ByteToMessageDecoder.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:233) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:219) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75) [ChannelInboundHandlerAdapter.class:4.0.23.Final]
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelInactive(ReadTimeoutHandler.java:144) [ReadTimeoutHandler.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:233) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:219) [AbstractChannelHandlerContext.class:4.0.23.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:769) [DefaultChannelPipeline.class:4.0.23.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$5.run(AbstractChannel.java:567) [AbstractChannel$AbstractUnsafe$5.class:4.0.23.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:380) [SingleThreadEventExecutor.class:4.0.23.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357) [NioEventLoop.class:4.0.23.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [SingleThreadEventExecutor$2.class:4.0.23.Final]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+Caused by: java.io.IOException: Packet 0/0 (SPacketSpawnObject) was larger than I expected, found 336841 bytes extra whilst reading packet 0
+	at net.minecraft.network.NettyPacketDecoder.decode(SourceFile:42) ~[ep.class:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249) ~[ByteToMessageDecoder.class:4.0.23.Final]
+	... 19 more
+[22:55:09] [Client thread/DEBUG] [FML/]: Reverting to frozen data state.
+[22:55:09] [Client thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[22:55:09] [Client thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[22:55:09] [Client thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,001s
+[22:55:09] [Client thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[22:55:09] [Client thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[22:55:09] [Client thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,001s
+[22:55:09] [Client thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[22:55:09] [Client thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[22:55:09] [Client thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,053s
+[22:55:09] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sending event FMLModIdMappingEvent to mod CustomMainMenu
+[22:55:09] [Client thread/TRACE] [CustomMainMenu/CustomMainMenu]: Sent event FMLModIdMappingEvent to mod CustomMainMenu
+[22:55:09] [Client thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Custom Main Menu took 0,001s
+[22:55:09] [Client thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,055s
+[22:55:09] [Client thread/INFO] [FML/]: Applying holder lookups
+[22:55:09] [Client thread/INFO] [FML/]: Holder lookups applied
+[22:55:09] [Client thread/DEBUG] [FML/]: Frozen state restored.
