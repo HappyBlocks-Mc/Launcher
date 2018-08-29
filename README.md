@@ -1,13 +1,24 @@
+<div align="center">
+  <h1>HappyBlocks</h1>
+  <h3>The best Minecraft server in the world !</h3>
+  <p>
+    <a href="https://discord.gg/nd8epEU"><img src="https://discordapp.com/api/guilds/287534690729197570/embed.png"></a>
+    <a href="GitHub release"><img src="https://img.shields.io/github/release/qubyte/rubidium.svg"></a>
 
-# Launcher
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/HappyBlocks-Mc/Launcher/releases)
+  </p>
+</div>
+
+
+
+### The launcher
+
 The open-source HappyBlocks launcher!
 
 Hello!
 
 ![alt text](https://www.happyblocks.info/img/launcher.png "Screenshot du launcher")
 
-This launcher was created with the Litarvan tutorial, I thank him very much for sharing his bookstores and for his precious help.
+This launcher was created with the Litarvan tutorial, I thank him very much for sharing his libs and for his precious help.
 https://www.youtube.com/user/adrien19771
 
 It is possible to rely on our code while respecting the work provided, we spend a lot of time in this launcher
@@ -43,7 +54,7 @@ It is possible to rely on our code while respecting the work provided, we spend 
 ## This launcher includes :
 - Optifine
 - Custom texture pack (Fnaf)
-- 1.8.9 ( Version recommended)
+- 1.9.4 ( Version recommended)
 - Automatic updating of the launcher
 - Recommended settings for playing on our servers
 - ...
